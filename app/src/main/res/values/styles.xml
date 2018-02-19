@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="scrollView">
+        <!-- Customize the scrollView here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/backgrounddd</item>
+    </style>
+
+    <style name="Parent">
+        <!-- Customize the main parent (RelativeLayout) here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="restaurantImage">
+        <!-- Customize restaurant photo (ImageView) here. -->
+        <item name="android:src">@drawable/koi</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_below">@id/restName</item>
+    </style>
+
+    <style name="headerTextView">
+        <!-- Customize restaurant name (TextView) here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="LinearLayoutInfo">
+        <!-- Customize info parent (LinearLayout) here. -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_below">@id/restaurant_photo</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="infoStyle">
+        <!-- Customize info TextViews style here. -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/info</item>
+    </style>
+
+</resources>

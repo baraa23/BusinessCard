@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    style="@style/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+<RelativeLayout
+    style="@style/Parent">
+
+    <!--The restaurant name-->
+    <TextView
+        android:id="@+id/restName"
+        style="@style/headerTextView"
+        android:paddingTop="@dimen/headerPadding"
+        android:text="@string/restaurantName"
+        android:textColor="@color/white"
+        android:textSize="@dimen/headerSize" />
+
+    <!--restaurant photo-->
+    <ImageView
+        android:id="@+id/restaurant_photo"
+        style="@style/restaurantImage"
+        android:contentDescription="@string/description_photo" />
+
+
+    <!--info (phone,address,email,website)-->
+    <LinearLayout style="@style/LinearLayoutInfo">
+        <!--phone-->
+        <TextView
+            style="@style/infoStyle"
+            android:autoLink="phone"
+            android:textColorLink="@color/info"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableStart="@drawable/smartphone"
+            android:padding="@dimen/paddingInfo"
+            android:text="@string/phoneNumber"
+            android:textSize="@dimen/infoTextSize" />
+        <!--address-->
+        <TextView
+            style="@style/infoStyle"
+            android:autoLink="map"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableStart="@drawable/placeholder"
+            android:paddingBottom="@dimen/paddingInfo"
+            android:paddingLeft="@dimen/paddingInfo"
+            android:paddingRight="@dimen/paddingInfo"
+            android:text="@string/address"
+            android:textSize="@dimen/infoTextSize" />
+        <!--email-->
+        <TextView
+            style="@style/infoStyle"
+            android:autoLink="email"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableStart="@drawable/email"
+            android:paddingBottom="@dimen/paddingInfo"
+            android:paddingLeft="@dimen/paddingInfo"
+            android:paddingRight="@dimen/paddingInfo"
+            android:text="@string/email"
+            android:textColorLink="@color/info"
+            android:textSize="@dimen/infoTextSize" />
+        <!--website-->
+        <TextView
+            style="@style/infoStyle"
+            android:autoLink="web"
+            android:drawablePadding="@dimen/drawablePadding"
+            android:drawableStart="@drawable/internet"
+            android:paddingLeft="@dimen/paddingInfo"
+            android:paddingRight="@dimen/paddingInfo"
+            android:paddingBottom="@dimen/paddingInfo"
+            android:text="@string/website"
+            android:textColorLink="@color/info"
+            android:textSize="@dimen/infoTextSize" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

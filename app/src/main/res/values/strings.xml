@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="restaurantName">Sushi Koi</string>
+    <string name="phoneNumber">026 351 3523</string>
+    <string name="address">Gele Rijdersplein 2,\n6811AN Arnhem, Netherlands</string>
+    <string name="email">arnhem@sushi-koi.nl</string>
+    <string name="website">www.sushi-koi.nl</string>
+    <string name="description_photo">restaurant picture entrance</string>
+</resources>
